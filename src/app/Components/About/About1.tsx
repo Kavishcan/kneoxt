@@ -11,7 +11,7 @@ const About1 = () => {
             <div className="agk-content-box style-one mb-50 pf_fadeup">
               <div className="section-title mb-20">
                 <span className="sub-title">About us</span>
-                <h2>Building what's next together with Kneoxt</h2>
+                <h2>Building what&apos;s next together with Kneoxt</h2>
               </div>
               <p>
                 Kneoxt helps startups and growing businesses get off the ground
@@ -21,9 +21,9 @@ const About1 = () => {
                 strategy, and hands-on marketing help.
               </p>
               <p>
-                From day one to launch and beyond, we're here to build and grow
-                together. Whatever stage you're at, Kneoxt helps you move
-                forward with confidence.
+                From day one to launch and beyond, we&apos;re here to build and
+                grow together. Whatever stage you&apos;re at, Kneoxt helps you
+                move forward with confidence.
               </p>
               <ul>
                 <li>
