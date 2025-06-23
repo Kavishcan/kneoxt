@@ -21,7 +21,7 @@ const Project2 = () => {
       img: "/assets/images/digital-agency/project/expendoraai.png",
       title: "ExpendoraAI - AI Powered Mobile App to handle Finances",
       cat1: "Mobile App",
-      cat2: "UI/UX Design",
+      cat2: "AI",
       cat3: "UI/UX Design",
     },
     {
