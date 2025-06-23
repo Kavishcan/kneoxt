@@ -76,7 +76,7 @@ const Process2 = () => {
                 <i className="bi bi-rocket"></i>
               </div>
               <div className="content">
-                <h4 className="title">Testing & Deployment</h4>
+                <h4 className="title">Deployment</h4>
                 <p>
                   We rigorously test every aspect of the product to ensure
                   flawless performance and optimal user experience. Once
