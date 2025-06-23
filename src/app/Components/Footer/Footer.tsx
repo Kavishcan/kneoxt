@@ -4,25 +4,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="agenko-footer gray-dark pt-130 primary-black-bg">
-      <div className="shape shape-one">
-        <span>
-          <img
-            className="rotate360"
-            src="/assets/images/creative-agency/footer/element1.png"
-            alt="Shape"
-          />
-        </span>
-      </div>
-      <div className="shape shape-two">
-        <span>
-          <img
-            className="rotate360"
-            src="/assets/images/creative-agency/footer/element2.png"
-            alt="Shape"
-          />
-        </span>
-      </div>
+    <footer className="agenko-footer gray-dark pt-50 primary-black-bg">
       <div className="shape shape-blur_one">
         <span></span>
       </div>
@@ -30,7 +12,7 @@ const Footer = () => {
         <span></span>
       </div>
 
-      <div className="footer-widget-area pb-80">
+      <div className="footer-widget-area">
         <div className="container">
           <div className="row">
             <div className="col-lg-4 col-md-6 col-sm-6">
@@ -40,7 +22,7 @@ const Footer = () => {
                     <a href="#">
                       {" "}
                       <Image
-                        src="/assets/images/creative-agency/logo/logo-main.png"
+                        src="/assets/images/FullLogoDarkBG.svg"
                         alt="img"
                         width={151}
                         height={40}
@@ -48,7 +30,7 @@ const Footer = () => {
                     </a>
                   </div>
                   <p>
-                    Agenko creative digital agency delivering innovate web
+                    Kneoxt creative digital agency delivering innovate web
                     Development marketing.
                   </p>
                   <form>
@@ -73,11 +55,7 @@ const Footer = () => {
               <div className="footer-widget footer-contact-info-widget mb-40 pf_fadeup">
                 <div className="footer-content mb-25">
                   <h4 className="widget-title">Main Address</h4>
-                  <p>6801 Hollywood Blvd, Los Angeles, CA 90028</p>
-                </div>
-                <div className="footer-content mb-25">
-                  <h4 className="widget-title">Sub-Address</h4>
-                  <p>200 Santa Monica Pier, Santa Monica, CA 90401</p>
+                  <p>11 Samagi Mawatha, Moratuwa</p>
                 </div>
               </div>
             </div>
@@ -89,19 +67,19 @@ const Footer = () => {
                       <h4 className="widget-title">Our Link</h4>
                       <ul className="footer-nav">
                         <li>
-                          <Link href="/about">About us</Link>
+                          <Link href="#about">About us</Link>
                         </li>
                         <li>
-                          <Link href="/service">Services</Link>
+                          <Link href="#services">Services</Link>
                         </li>
                         <li>
-                          <Link href="/project">Our Project</Link>
+                          <Link href="#project">Our Project</Link>
                         </li>
                         <li>
-                          <Link href="/faq">FAQ</Link>
+                          <Link href="#process">Process</Link>
                         </li>
                         <li>
-                          <Link href="/contact">Contact us</Link>
+                          <Link href="#faq">FAQ</Link>
                         </li>
                       </ul>
                     </div>
@@ -118,7 +96,9 @@ const Footer = () => {
                         <div className="content">
                           <h6>Email</h6>
                           <p>
-                            <a href="mailto:info@agenko.com">info@agenko.com</a>
+                            <a href="mailto:kneoxt@gmail.com">
+                              kneoxt@gmail.com
+                            </a>
                           </p>
                         </div>
                       </div>
@@ -129,7 +109,7 @@ const Footer = () => {
                         <div className="content">
                           <h6>Phone</h6>
                           <p>
-                            <a href="tel:+555-7659-9854">+555-7659-9854</a>
+                            <a href="tel:+94-784672933">+94-784672933</a>
                           </p>
                         </div>
                       </div>
@@ -144,29 +124,10 @@ const Footer = () => {
 
       <div className="footer-copyright">
         <div className="container">
-          <div className="row">
-            <div className="col-md-6">
-              <div className="copyright-text">
-                <p>
-                  &copy; 2025 <span>Agenko</span> - All Rights Reserved.
-                </p>
-              </div>
-            </div>
-            <div className="col-md-6">
-              <div className="copyright-nav">
-                <ul>
-                  <li>
-                    <a href="#">Terms & Condition</a>
-                  </li>
-                  <li>
-                    <a href="#">Privacy Policy</a>
-                  </li>
-                  <li>
-                    <a href="#">Contact</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+          <div className="copyright-text">
+            <p>
+              &copy; 2025 <span>Kneoxt</span> - All Rights Reserved.
+            </p>
           </div>
         </div>
       </div>

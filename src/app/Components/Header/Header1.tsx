@@ -41,9 +41,9 @@ export default function Header1({ variant }: any) {
           <div className="container">
             <div className="cs_main_header_in">
               <div className="cs_main_header_left">
-                <Link className="cs_site_branding" href="/">
+                <Link href="/">
                   <Image
-                    src="/assets/images/creative-agency/logo/logo-main.png"
+                    src="/assets/images/FullLogoDarkBG.svg"
                     alt="img"
                     width={151}
                     height={40}
@@ -68,7 +68,7 @@ export default function Header1({ variant }: any) {
               <div className="cs_main_header_right">
                 <div className="header-btn d-flex align-items-center">
                   <div className="main-button">
-                    <Link href="/contact" className="theme-btn style-one">
+                    <Link href="#" className="theme-btn style-one">
                       <span className="text-flip">
                         <span className="text">LETS TALK</span>
                         <span className="text">LETS TALK</span>
