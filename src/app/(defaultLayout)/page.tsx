@@ -8,12 +8,12 @@ import Faq1 from "../Components/Faq/Faq1";
 const page = () => {
   return (
     <div>
-      <HeroBanner2></HeroBanner2>
-      <About1></About1>
-      <Services2></Services2>
-      <Project2></Project2>
-      <Process2></Process2>
-      <Faq1></Faq1>
+      <HeroBanner2></HeroBanner2> {/* adeepa */}
+      <About1></About1> {/* adeepa */}
+      <Services2></Services2> {/* hasala */}
+      <Project2></Project2> {/* tharindu */}
+      <Process2></Process2> {/* tharindu */}
+      <Faq1></Faq1> {/* hasala */}
     </div>
   );
 };
