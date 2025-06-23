@@ -1062,7 +1062,7 @@ Version: 1.0
 }
 
 .pt-130 {
-  padding-top: 130px;
+  padding-top: 80px;
 }
 
 .pt-135 {
@@ -5367,7 +5367,7 @@ label {
 }
 @media screen and (max-width: 991px) {
   .hero-wrapper-two .shape.shape-one {
-    top: 8%;
+    top: 17%;
   }
 }
 .hero-wrapper-two .shape.shape-two {
@@ -5532,6 +5532,7 @@ label {
 /* Hero Wrapper Three */
 .hero-wrapper-three {
   padding: 160px 0;
+  padding-bottom: 0;
 }
 .hero-wrapper-three .hero-content h1 span {
   position: relative;
@@ -5595,6 +5596,7 @@ label {
     top: auto;
     right: auto;
     margin-top: 40px;
+    display: none;
   }
 }
 .hero-wrapper-three .hero-image-box svg {
