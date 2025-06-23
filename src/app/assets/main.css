@@ -2359,6 +2359,11 @@ label {
   -webkit-transition: all 0.1s cubic-bezier(0.68, 0.01, 0.58, 0.75);
   transition: all 0.1s cubic-bezier(0.68, 0.01, 0.58, 0.75);
 }
+
+.theme-btn.style-one.hero-section{
+  color: var(--white-color);
+}
+
 .theme-btn.style-one:hover .text-flip {
   -webkit-transform: translateY(-150%);
   transform: translateY(-150%);
@@ -5396,7 +5401,7 @@ label {
 }
 .hero-wrapper-two .hero-content {
   position: relative;
-  margin-bottom: 80px;
+  margin-bottom: 180px;
 }
 .hero-wrapper-two .hero-content h1 {
   font-size: 140px;
@@ -5404,6 +5409,10 @@ label {
   color: var(--white-color);
 }
 @media screen and (max-width: 991px) {
+  .hero-wrapper-two .hero-content {
+    margin-bottom: 80px;
+  }
+
   .hero-wrapper-two .hero-content h1 {
     font-size: 70px;
     line-height: 90px;
@@ -5420,19 +5429,12 @@ label {
 .hero-wrapper-two .hero-content .text-box {
   max-width: 530px;
   position: absolute;
-  bottom: 5%;
-  right: 20%;
 }
 .hero-wrapper-two .hero-content .text-box p {
   margin-bottom: 25px;
 }
 .hero-wrapper-two .hero-content .text-box p span {
   color: var(--white-color);
-}
-@media (min-width: 1200px) and (max-width: 1450px) {
-  .hero-wrapper-two .hero-content .text-box {
-    right: 10%;
-  }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .hero-wrapper-two .hero-content .text-box {
