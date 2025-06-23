@@ -4,28 +4,32 @@ import React from "react";
 const Project2 = () => {
   const chooseContent = [
     {
-      img: "/assets/images/digital-agency/project/project1.jpg",
-      title: "Medical Mobile Design & Development",
-      cat1: "Mobile App",
-      cat2: "UI/UX Design",
+      img: "/assets/images/digital-agency/project/imagineSTEM.png",
+      title: "imagineSTEM - A comprehensive STEM education platform",
+      cat1: "Web Development",
+      cat2: "Admin Dashboard",
+      cat3: "UI/UX Design",
     },
     {
-      img: "/assets/images/digital-agency/project/project2.jpg",
-      title: "Stacks Website Design & Coding",
-      cat1: "Mobile App",
-      cat2: "UI/UX Design",
+      img: "/assets/images/digital-agency/project/NatureTravel.png",
+      title: "Heaven Nature Tours - A Travel Agency Website",
+      cat1: "Web Development",
+      cat2: "Landing Page",
+      cat3: "UI/UX Design",
     },
     {
-      img: "/assets/images/digital-agency/project/project3.jpg",
-      title: "Financial & Wallet Website Design",
+      img: "/assets/images/digital-agency/project/expendoraai.png",
+      title: "ExpendoraAI - AI Powered Mobile App to handle Finances",
       cat1: "Mobile App",
       cat2: "UI/UX Design",
+      cat3: "UI/UX Design",
     },
     {
-      img: "/assets/images/digital-agency/project/project4.jpg",
-      title: "Sales Management Mobile App Design",
-      cat1: "Mobile App",
-      cat2: "UI/UX Design",
+      img: "/assets/images/digital-agency/project/revisepluw.png",
+      title: "RevisePlus - AI based Learning Platform",
+      cat1: "Web Development",
+      cat2: "AI",
+      cat3: "UI/UX Design",
     },
   ];
 
@@ -61,6 +65,7 @@ const Project2 = () => {
                   <div className="project-categories">
                     <a href="#">{item.cat1}</a>
                     <a href="#">{item.cat2}</a>
+                    <a href="#">{item.cat3}</a>
                   </div>
                   <h4 className="title">
                     <p>{item.title}</p>
