@@ -49,7 +49,7 @@ const HeroBanner2 = () => {
                     to elevate your business.
                   </p>
                   <div className="hero-button">
-                    <Link href="/about" className="theme-btn style-one hero-section">
+                    <Link href="#about" className="theme-btn style-one hero-section">
                       <span className="text-flip">
                         <span className="text">Learn More</span>
                         <span className="text">Learn More</span>
