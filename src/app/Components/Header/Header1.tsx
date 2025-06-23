@@ -41,9 +41,9 @@ export default function Header1({ variant }: any) {
           <div className="container">
             <div className="cs_main_header_in">
               <div className="cs_main_header_left">
-                <Link className="cs_site_branding" href="/">
+                <Link href="/">
                   <Image
-                    src="/assets/images/creative-agency/logo/logo-main.png"
+                    src="/assets/images/FullLogoDarkBG.svg"
                     alt="img"
                     width={151}
                     height={40}

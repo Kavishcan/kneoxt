@@ -42,7 +42,7 @@ Version: 1.0
 /* Base CSS */
 
 :root {
-  --primary-color: #eb6242;
+  --primary-color: #ff6d02;
   --heading-color: #1a1a1a;
   --primary-black-color: #0e0f11;
   --white-color: #ffffff;
@@ -5007,7 +5007,7 @@ label {
 .agenko-footer .shape.shape-blur_one span {
   width: 261px;
   height: 261px;
-  background-color: rgba(155, 254, 79, 0.5);
+  background-color: rgba(29, 46, 64, 0.5);
   -webkit-filter: blur(80px);
   filter: blur(80px);
 }
@@ -5018,7 +5018,7 @@ label {
 .agenko-footer .shape.shape-blur_two span {
   width: 261px;
   height: 261px;
-  background-color: rgba(202, 186, 231, 0.6);
+  background-color: rgba(255, 109, 2, 0.1);
   -webkit-filter: blur(80px);
   filter: blur(80px);
 }
@@ -5032,9 +5032,7 @@ label {
 .footer-widget .footer-content .footer-logo {
   padding: 5px;
   display: inline-block;
-  border-radius: 40px;
-  border: 1px solid var(--Stock-Color, #313131);
-  background-color: #0e0f11;
+  background-color: transparent;
   margin-bottom: 20px;
 }
 .footer-widget .footer-content ul li:not(:last-child) {
@@ -5137,6 +5135,7 @@ label {
 .footer-copyright .copyright-text p {
   font: 500 18px var(--heading-font);
   color: var(--white-color);
+  text-align: center;
 }
 .footer-copyright .copyright-text p span {
   color: var(--primary-color);
@@ -7425,11 +7424,11 @@ label {
     background-color: #2b00a5;
   }
   .header_sticky_style1.cs-gescout_sticky {
-    background-color: #6a47ed;
+    background-color: #18191b;
   }
   .header_sticky_style1.cs_site_header.header_style_2.cs_style_1
     .container::before {
-    background-color: #6a47ed;
+    background-color: #18191b;
   }
   .header_sticky_style1.cs-gescout_sticky .cs_nav .cs_nav_list > li > a {
     color: #fff;
