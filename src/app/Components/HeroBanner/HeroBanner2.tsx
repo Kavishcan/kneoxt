@@ -23,7 +23,7 @@ const HeroBanner2 = () => {
               className="animate-float-bob-y"
               src="/assets/images/digital-agency/hero/shape/shape2.png"
               alt="img"
-              width={40}
+              width={80}
               height={80}
             />
           </span>
@@ -39,10 +39,9 @@ const HeroBanner2 = () => {
             <div className="col-lg-12">
               <div className="hero-content">
                 <h1>
-                  <span className="text-anm">Digital Modern</span>
-                  <span className="text-anm">Agency</span>
+                  <span className="text-anm">Smart Solutions</span>
+                  <span className="text-anm">for Future</span>
                 </h1>
-                <div className="pro">Pro</div>
                 <div className="text-box pf_fadeup">
                   <p>
                     A <span>Digital Modern Agency</span> specializing in
@@ -50,10 +49,10 @@ const HeroBanner2 = () => {
                     to elevate your business.
                   </p>
                   <div className="hero-button">
-                    <Link href="/about" className="theme-btn style-one">
+                    <Link href="/about" className="theme-btn style-one hero-section">
                       <span className="text-flip">
-                        <span className="text">LEARN MORE</span>
-                        <span className="text">LEARN MORE</span>
+                        <span className="text">Learn More</span>
+                        <span className="text">Learn More</span>
                       </span>
                     </Link>
                   </div>
