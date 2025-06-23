@@ -68,12 +68,18 @@ export default function Header1({ variant }: any) {
               <div className="cs_main_header_right">
                 <div className="header-btn d-flex align-items-center">
                   <div className="main-button">
-                    <Link href="#" className="theme-btn style-one">
+                    <a
+                      className="theme-btn style-one"
+                      aria-label="Chat on WhatsApp"
+                      href="https://wa.me/94784672933"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <span className="text-flip">
                         <span className="text">LETS TALK</span>
                         <span className="text">LETS TALK</span>
                       </span>
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
