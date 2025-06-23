@@ -68,7 +68,7 @@ export default function Header1({ variant }: any) {
               <div className="cs_main_header_right">
                 <div className="header-btn d-flex align-items-center">
                   <div className="main-button">
-                    <Link href="/contact" className="theme-btn style-one">
+                    <Link href="#" className="theme-btn style-one">
                       <span className="text-flip">
                         <span className="text">LETS TALK</span>
                         <span className="text">LETS TALK</span>
