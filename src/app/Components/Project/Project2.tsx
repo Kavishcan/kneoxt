@@ -55,11 +55,11 @@ const Project2 = () => {
               <div className="agenko-project-item style-one mb-45 pf_fadeup">
                 <div className="thumbnail">
                   <img src={item.img} alt="Project Image" />
-                  <div className="project-button">
+                  {/* <div className="project-button">
                     <Link href="#">
                       <i className="bi bi-plus-lg"></i>
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="content">
                   <div className="project-categories">
