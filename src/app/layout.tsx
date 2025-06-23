@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "slick-carousel/slick/slick.css";
 import "./assets/main.css";
-import CalFloatingButton from "./Components/CalFloatingButton";
+import Image from "next/image";
 
 const source_sans = Source_Sans_3({
   subsets: ["latin"],
@@ -41,7 +41,20 @@ export default function RootLayout({ children }: any) {
         />
       </head>
       <body className={`${source_sans.variable} ${roboto.variable}`}>
-        <CalFloatingButton />
+        <a
+          className="whatsapp-fixed"
+          aria-label="Chat on WhatsApp"
+          href="https://wa.me/94784672933"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            src="/assets/images/whatsapp2.png"
+            alt="WhatsApp Icon"
+            width={48}
+            height={48}
+          />
+        </a>
         {children}
       </body>
     </html>
