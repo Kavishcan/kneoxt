@@ -42,7 +42,7 @@ Version: 1.0
 /* Base CSS */
 
 :root {
-  --primary-color: #eb6242;
+  --primary-color: #ff6d02;
   --heading-color: #1a1a1a;
   --primary-black-color: #0e0f11;
   --white-color: #ffffff;
@@ -2223,7 +2223,8 @@ label {
 }
 
 .sub-title {
-  border: 1px solid var(--primary-color);
+  border: 2px solid var(--primary-color);
+  font-weight: bold;
   padding: 10px;
   border-radius: 30px;
   color: var(--white-color);

@@ -11,27 +11,20 @@ const About1 = () => {
             <div className="agk-content-box style-one mb-50 pf_fadeup">
               <div className="section-title mb-20">
                 <span className="sub-title">About us</span>
-                <h2>Strategic growth powered by Agenko Agency!</h2>
+                <h2>Building what's next together with Kneoxt</h2>
               </div>
               <p>
-                At Agenko Agency, we specialize in delivering strategic growth
-                solutions tailored to elevate your business to new heights. By
-                combining innovative strategies, data-driven insights, and
-                creative expertise, we help companies unlock their full.
+                Kneoxt helps startups and growing businesses get off the ground
+                with powerful websites, apps, and custom software. We work
+                closely with you to turn ideas into real, working products — and
+                support you every step of the way with smart design, clear
+                strategy, and hands-on marketing help.
               </p>
               <p>
-                Our dedicated team works closely with clients to understand
-                their unique goals, crafting customized plans that drive
-                measurable results.
+                From day one to launch and beyond, we're here to build and grow
+                together. Whatever stage you're at, Kneoxt helps you move
+                forward with confidence.
               </p>
-              <div className="agk-button mb-30">
-                <Link href="/about" className="theme-btn style-one">
-                  <span className="text-flip">
-                    <span className="text">LEARN MORE</span>
-                    <span className="text">LEARN MORE</span>
-                  </span>
-                </Link>
-              </div>
               <ul>
                 <li>
                   <div className="agenko-counter-box style-one">
@@ -60,17 +53,11 @@ const About1 = () => {
             <div className="agk-image-box style-one mb-50 pf_fadeup">
               <div className="agk-image">
                 <Image
-                  src="/assets/images/digital-agency/about/about1.jpg"
+                  src="/assets/images/digital-agency/about/about.jpg"
                   alt="img"
                   width={440}
                   height={532}
                 />
-              </div>
-              <div className="agenko-experince-box style-one">
-                <h2>
-                  <span>24</span>+
-                </h2>
-                <p>Years On The Market</p>
               </div>
             </div>
           </div>
