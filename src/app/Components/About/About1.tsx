@@ -30,9 +30,9 @@ const About1 = () => {
                   <div className="agenko-counter-box style-one">
                     <div className="content">
                       <h2 className="mb-10">
-                        <span className="count">240</span>+
+                        <span className="count">23</span>+
                       </h2>
-                      <p>Projects success rate 99%</p>
+                      <p>Projects Completed</p>
                     </div>
                   </div>
                 </li>
@@ -40,9 +40,9 @@ const About1 = () => {
                   <div className="agenko-counter-box style-one">
                     <div className="content">
                       <h2 className="mb-10">
-                        <span className="count">23</span>+
+                        <span className="count">20</span>+
                       </h2>
-                      <p>Award for digital innovation</p>
+                      <p>Happy Customers</p>
                     </div>
                   </div>
                 </li>
