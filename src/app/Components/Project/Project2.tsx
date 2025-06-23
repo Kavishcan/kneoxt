@@ -41,12 +41,7 @@ const Project2 = () => {
           </div>
           <div className="col-lg-5">
             <div className="agk-button mb-60 float-lg-end pf_fadeup">
-              <Link href="/project" className="theme-btn style-one">
-                <span className="text-flip">
-                  <span className="text">View All Work</span>
-                  <span className="text">View All Work</span>
-                </span>
-              </Link>
+             
             </div>
           </div>
         </div>
@@ -57,7 +52,7 @@ const Project2 = () => {
                 <div className="thumbnail">
                   <img src={item.img} alt="Project Image" />
                   <div className="project-button">
-                    <Link href="/project/project-details">
+                    <Link href="#">
                       <i className="bi bi-plus-lg"></i>
                     </Link>
                   </div>
@@ -68,7 +63,7 @@ const Project2 = () => {
                     <a href="#">{item.cat2}</a>
                   </div>
                   <h4 className="title">
-                    <Link href="/project/project-details">{item.title}</Link>
+                    <p>{item.title}</p>
                   </h4>
                 </div>
               </div>

@@ -23,52 +23,84 @@ const Process2 = () => {
         </div>
         <div className="row">
           <div className="col-xl-3 col-md-6 col-sm-12">
-            <div className="agenko-iconic-box style-two mb-40 pf_fadeup">
+            <div className="agenko-iconic-box style-two mb-40 pf_fadeup same-height">
               <div className="icon">
-                <i className="bi bi-binoculars"></i>
+                <i className="bi bi-search"></i>
               </div>
               <div className="content">
                 <h4 className="title">Research & Planning</h4>
                 <p>
-                  Creating cutting-edge digital pro experience that innovation
+                  We start with comprehensive research to deeply understand your
+                  business goals and user needs. This is followed by meticulous
+                  planning to set a clear roadmap for success.
                 </p>
                 <div className="step">Step-01</div>
               </div>
             </div>
           </div>
           <div className="col-xl-3 col-md-6 col-sm-12">
-            <div className="agenko-iconic-box style-two mb-40 pf_fadeup">
+            <div className="agenko-iconic-box style-two mb-40 pf_fadeup same-height">
               <div className="icon">
-                <i className="bi bi-binoculars"></i>
+                <i className="bi bi-palette"></i>
               </div>
               <div className="content">
                 <h4 className="title">Concept & Design</h4>
-                <p>Innovative concepts and designs tailored for functional.</p>
+                <p>
+                  Turning insights into stunning, functional designs. Our team
+                  crafts innovative concepts, meticulously tailored to your
+                  needs for an intuitive user experience.
+                </p>
                 <div className="step">Step-02</div>
               </div>
             </div>
           </div>
           <div className="col-xl-3 col-md-6 col-sm-12">
-            <div className="agenko-iconic-box style-two mb-40 pf_fadeup">
+            <div className="agenko-iconic-box style-two mb-40 pf_fadeup same-height">
               <div className="icon">
-                <i className="bi bi-binoculars"></i>
+                <i className="bi bi-code-slash"></i>
               </div>
               <div className="content">
-                <h4 className="title">Testing & Quality</h4>
-                <p>Comprehensive testing ensures exceptional quality.</p>
+                <h4 className="title">Development</h4>
+                <p>
+                  Using the latest technologies and best practices, our
+                  developers bring the designs to life, creating robust and
+                  scalable solutions tailored to your specific requirements.
+                </p>
                 <div className="step">Step-03</div>
               </div>
             </div>
           </div>
           <div className="col-xl-3 col-md-6 col-sm-12">
-            <div className="agenko-iconic-box style-two mb-40 pf_fadeup">
+            <div className="agenko-iconic-box style-two mb-40 pf_fadeup same-height">
               <div className="icon">
-                <i className="bi bi-binoculars"></i>
+                <i className="bi bi-rocket"></i>
+              </div>
+              <div className="content">
+                <h4 className="title">Testing & Deployment</h4>
+                <p>
+                  We rigorously test every aspect of the product to ensure
+                  flawless performance and optimal user experience. Once
+                  approved, we handle the deployment process, ensuring a smooth
+                  launch.
+                </p>
+                <div className="step">Step-04</div>
+              </div>
+            </div>
+          </div>
+          <div className="col-xl-12 col-md-6 col-sm-12">
+            <div className="agenko-iconic-box style-two mb-40 pf_fadeup horizontal-box">
+              <div className="icon">
+                <i className="bi bi-headset"></i>
               </div>
               <div className="content">
                 <h4 className="title">Help & Support</h4>
-                <p>Dedicated help and support for seamless customer.</p>
-                <div className="step">Step-04</div>
+                <p>
+                  Providing dedicated help and support long after launch for a
+                  seamless customer experience. Our commitment extends beyond
+                  delivery, offering ongoing assistance to ensure your solution
+                  continues to perform optimally and evolve with your needs.
+                </p>
+                <div className="step">Step-05</div>
               </div>
             </div>
           </div>
