@@ -5928,6 +5928,15 @@ label {
   font-weight: 700;
   line-height: 200px; /* 100% */
   text-transform: uppercase;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+@media (max-width: 991px) {
+  .faq-big-text {
+    font-size: 115px;
+    line-height: 115px; /* 100% */
+  }
 }
 
 .agk-team .container-fluid {
