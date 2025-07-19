@@ -5,6 +5,9 @@ import "slick-carousel/slick/slick.css";
 import "./assets/main.css";
 import Image from "next/image";
 
+import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 const source_sans = Source_Sans_3({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700", "800"],
@@ -56,6 +59,8 @@ export default function RootLayout({ children }: any) {
           />
         </a>
         {children}
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
