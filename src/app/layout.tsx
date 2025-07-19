@@ -33,7 +33,7 @@ export default function RootLayout({ children }: any) {
   return (
     <html lang="en">
       <head>
-        <meta name="author" content="Themeservices" />
+        <meta name="author" content="Kneoxt" />
         <link
           rel="icon"
           href="/assets/images/Kneoxt-shortLogo-black.svg"
