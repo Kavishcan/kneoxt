@@ -22,7 +22,7 @@ export const metadata = {
     default: "Kneoxt - Your website design and development partner",
     template: "%s | Kneoxt - Your website design and development partner",
   },
-  description: "Agenko - Creative Digital Agency NextJS Template",
+  description: "Kneoxt - Your website design and development partner",
   openGraph: {
     title: "Kneoxt - Your website design and development partner",
     description: "Kneoxt - Your website design and development partner",
