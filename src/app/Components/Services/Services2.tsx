@@ -17,7 +17,7 @@ const iconPositions = [
 
 const Services2 = () => {
     return (
-        <section className="agk-services gray-dark pt-130 pb-100" style={{ position: 'relative', overflow: 'hidden' }}>
+        <section id='services' className="agk-services gray-dark pt-130 pb-100" style={{ position: 'relative', overflow: 'hidden' }}>
             <div
                 className="d-none d-md-block"
                 style={{ position: 'absolute', width: '100%', height: '100%', pointerEvents: 'none', zIndex: 0 }}
