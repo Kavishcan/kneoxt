@@ -1,4 +1,3 @@
-import React from "react";
 import About1 from "../Components/About/About1";
 import Services2 from "../Components/Services/Services2";
 import Project2 from "../Components/Project/Project2";
